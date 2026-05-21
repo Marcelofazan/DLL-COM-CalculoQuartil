@@ -7,7 +7,7 @@ Exemplo de criação de componente de calculo de Estatísticas e Cálculo do Qua
 - **Json** - Serialização e desserialização utilizado nas linguaguens   
 - **COM** - Criação de Componente Objetos COM/ActiveX em .NET onde para ser usadas por outras linguaguens (rundll32), devem ter e serem criadas como ComVisible(true) e serem registradas para interoperação com registro (regasm.exe). 
 
-#### Execução da aplicação em outras linguaguens
+#### Registrar a aplicação em outras linguaguens
 A DLL deve ser registrada com o seguinte .BAT, necessário ajustar o diretório do arquivo BAT.
 ```bash
 @ECHO OFF
