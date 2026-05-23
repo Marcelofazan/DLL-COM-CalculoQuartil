@@ -1,4 +1,4 @@
-## DLL-CSharp-Estatistica-Calculo-Quartil
+## Quartile-Lib-Cs
 Exemplo de criação de componente de calculo de Estatísticas e Cálculo do Quadro de Quartil DLL em CSharp para ser utilizado como componente em outras linguaguens de programação 32 bits (Delphi, Visual Basic, FoxPro) como componente (**COM/ActiveX**), 
 
 #### O que você vai encontrar neste projeto
@@ -7,7 +7,7 @@ Exemplo de criação de componente de calculo de Estatísticas e Cálculo do Qua
 - **Json** - Serialização e desserialização utilizado nas linguaguens   
 - **COM** - Criação de Componente Objetos COM/ActiveX em .NET onde para ser usadas por outras linguaguens (rundll32), devem ter e serem criadas como ComVisible(true) e serem registradas para interoperação com registro (regasm.exe). 
 
-#### Registrar a aplicação em outras linguaguens
+#### Requisitos do Projeto
 A DLL deve ser registrada com o seguinte .BAT, necessário ajustar o diretório do arquivo BAT.
 ```bash
 @ECHO OFF
@@ -18,5 +18,5 @@ timeout /t 20
 EXIT
 ```
 
-#### Cálculo do Quartil
+#### Cálculo do Quartilo que é ?
 Os quartis são medidas estatísticas que dividem um conjunto de dados ordenados (do menor para o maior) em quatro partes iguais, cada uma contendo 25% dos dados. Eles são fundamentais para entender a distribuição e a dispersão dos dados, indo além do que uma simples média pode mostrar.
